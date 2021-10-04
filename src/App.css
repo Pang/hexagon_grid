@@ -1,0 +1,6 @@
+.hex-row {
+  clear: left;
+}
+.hex-row.even {
+  margin-left: 53px;
+}

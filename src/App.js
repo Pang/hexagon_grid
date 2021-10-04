@@ -4,7 +4,34 @@ import Hexagon from './components/hexagon.js';
 function App() {
   return (
     <div>
-      <Hexagon></Hexagon>
+      <div className="hex-row">
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
+      <div className="hex-row even">
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
+      <div className="hex-row">
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
+      <div className="hex-row even">
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+        <Hexagon></Hexagon>
+      </div>
     </div>
   );
 }
