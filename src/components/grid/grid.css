@@ -1,7 +1,10 @@
 .hex-row {
     clear: left;
+    width: 100%;
+    text-align-last: center;
 }
 .hex-row:nth-child(even) {
-    margin-left: 75px;
+    position: relative;
+    left: -80px;
 }
 

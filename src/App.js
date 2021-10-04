@@ -4,7 +4,7 @@ import Grid from './components/grid/grid';
 function App() {
   return (
     <div className="hex-grid">
-      <Grid noOfRows={3} hexPerRow={5}></Grid>
+      <Grid noOfRows={4} hexPerRow={5}></Grid>
     </div>
   );
 }

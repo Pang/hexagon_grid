@@ -1,6 +1,6 @@
 .hexagon {
   position: relative;
-  float: left;
+  display: inline-block;
   width: 140px; 
   height: 80.83px;
   margin: 26px 6px;
