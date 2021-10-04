@@ -11,7 +11,7 @@ function App() {
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
       </div>
-      <div className="hex-row even">
+      <div className="hex-row">
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
@@ -25,7 +25,7 @@ function App() {
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
       </div>
-      <div className="hex-row even">
+      <div className="hex-row">
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>
         <Hexagon></Hexagon>

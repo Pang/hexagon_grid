@@ -1,6 +1,6 @@
 .hex-row {
   clear: left;
 }
-.hex-row.even {
+.hex-row:nth-child(even) {
   margin-left: 53px;
 }
