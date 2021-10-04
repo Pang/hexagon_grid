@@ -1,11 +1,10 @@
 import './App.css';
+import Hexagon from './components/hexagon.js';
 
 function App() {
   return (
     <div>
-      <div className="hexagonTop"></div>
-      <div className="hexagonMid"></div>
-      <div className="hexagonBot"></div>
+      <Hexagon></Hexagon>
     </div>
   );
 }
