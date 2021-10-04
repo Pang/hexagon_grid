@@ -1,37 +1,10 @@
 import './App.css';
-import Hexagon from './components/hexagon.js';
+import Grid from './components/grid/grid';
 
 function App() {
   return (
     <div>
-      <div className="hex-row">
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className="hex-row">
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className="hex-row">
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
-      <div className="hex-row">
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-        <Hexagon></Hexagon>
-      </div>
+      <Grid noOfRows={3} hexPerRow={5}></Grid>
     </div>
   );
 }
