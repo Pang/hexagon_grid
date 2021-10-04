@@ -2,10 +2,9 @@ import './hexagon.css';
 
 function Hexagon() {
   return (
-    <div className="hexagon">
-      <div className="hexagonTop"></div>
-      <div className="hexagonMid"></div>
-      <div className="hexagonBot"></div>
+    <div class="hexagon">
+      <div class="hexTop"></div>
+      <div class="hexBottom"></div>
     </div>
   );
 }

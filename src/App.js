@@ -3,7 +3,7 @@ import Grid from './components/grid/grid';
 
 function App() {
   return (
-    <div>
+    <div className="hex-grid">
       <Grid noOfRows={3} hexPerRow={5}></Grid>
     </div>
   );
